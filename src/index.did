@@ -1,0 +1,5 @@
+service: () -> {
+    AddItem: (text, nat64) -> (text);
+    FindItem: (text) -> (Void) query;
+    FindAllItems () -> (ToDoList);
+}
